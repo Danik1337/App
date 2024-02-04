@@ -14,7 +14,12 @@ class _HomeState extends State<App> {
 
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Text("QWERRTT")
+        body: Column(
+          children: [
+            Text("qq"),
+            Text("ff")
+          ],
+        )
     );
   }
 }
